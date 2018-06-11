@@ -53,3 +53,56 @@ see the interface at http://localhost:3000
 [travis-url]: https://travis-ci.org/cubedro/eth-netstats
 [dep-image]: https://david-dm.org/cubedro/eth-netstats.svg
 [dep-url]: https://david-dm.org/cubedro/eth-netstats
+
+
+## Run on mac w/ parity
+
+History (June 2018):
+``` 
+502  grunt
+  503  WS_SECRET="chosen_secret" npm start
+  504  grunt
+  505  WS_SECRET="chosen_secret" npm start
+  506  grunt
+  507  WS_SECRET="chosen_secret" npm start
+  508  grunt
+  509  WS_SECRET="chosen_secret" npm start
+  510  grunt
+  511  WS_SECRET="chosen_secret" npm start
+  512  c
+  513  WS_SECRET="chosen_secret" npm start
+  514  grunt
+  515  WS_SECRET="chosen_secret" npm start
+  516  c
+  517  WS_SECRET="chosen_secret" npm start
+  518  grunt && WS_SECRET="chosen_secret" npm start
+  519  grunt && WS_SECRET="chosen_secret" npm start
+  520  grunt && WS_SECRET="chosen_secret" npm start
+  521  c
+  522  grunt && WS_SECRET="chosen_secret" npm start
+  523  grunt && WS_SECRET="chosen_secret" npm start
+  524  grunt && WS_SECRET="chosen_secret" npm start
+  525  grunt && WS_SECRET="chosen_secret" npm start
+  526  npm install -s grunt-cli
+  527  npm install -s pm2
+  528  npm audit fix
+  529  npm audit fix --force
+  530  npm audit fix
+  531  npm audit fix
+  532  npm i --package-lock-only
+  533  npm audit fix
+  534  c
+  535  git status
+  536  npm install --save
+  537  c
+  538  h
+  539  grunt && WS_SECRET="chosen_secret" npm start
+  540  open .
+  541  c
+  542  grunt && WS_SECRET="chosen_secret" npm start
+  543  grunt && WS_SECRET="chosen_secret" npm start
+  544  grunt
+  545  grunt && WS_SECRET="chosen_secret" npm start
+  546  c
+
+```

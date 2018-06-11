@@ -35,7 +35,8 @@ table td {
 
 .bg-info,
 .text-info .propagationBox {
-	background: #10a0de;
+	color: #ffffff;
+	background: #ffffff;
 }
 
 .bg-warning,
@@ -63,7 +64,7 @@ table td {
 .bg-warning,
 .bg-orange,
 .bg-danger {
-	color: #000;
+	color: #ffffff;
 }
 
 .text-gray {
@@ -80,11 +81,12 @@ table td {
 }
 
 .stat-holder {
-	background: #090909;
+	background: #ffffff;
 	border: 1px solid rgba(255,255,255,0.05);
 }
 
 .big-info {
+	background: #ffffff;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -130,7 +132,6 @@ span.small-title span.small {
 	font-size: 50px;
 	line-height: 55px;
 	letter-spacing: -4px;
-	word-spacing: nowrap !important;
 }
 
 .big-info .big-details .small-hash {
@@ -155,7 +156,7 @@ span.small-title span.small {
 
 .big-info.chart {
 	height: 120px;
-	-webkit-box-sizing: border-box
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -180,7 +181,7 @@ span.small-title span.small {
 	letter-spacing: -0.1px;
 	text-transform: none;
 	white-space: nowrap;
-	color: #777;
+	color: #ffffff;
 }
 
 .blocks-holder .block-count {
@@ -255,7 +256,7 @@ table i {
 
 table th,
 table td {
-	border-color: #222 !important;
+	border-color: #ffffff !important;
 }
 
 table td {
@@ -263,7 +264,7 @@ table td {
 }
 
 table th {
-	color: #888;
+	color: #ffffff;
 }
 
 table th i {
@@ -363,7 +364,6 @@ nodepropagchart {
 	padding: 5px 0;
 	width: auto;
 	left: -50%;
-	word-wrap: wrap;
 	text-align: center;
 }
 
@@ -400,7 +400,7 @@ nodepropagchart {
 	width: auto;
 	left: -50%;
 	text-align: center;
-	color: #333;
+	color: #ffffff;
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 3px !important;
@@ -439,7 +439,7 @@ svg .line {
 	stroke-width: 1.3px;
 	stroke-linejoin: round;
 	stroke-linecap: round;
-	shape-rendering: geometric-precision;
+	/*shape-rendering: geometric-precision;*/
 	/*-webkit-svg-shadow: 0 0 7px #fff;*/
 }
 
@@ -455,7 +455,6 @@ svg .axis line {
 	shape-rendering: crispEdges;
 }
 svg .axis text {
-	fill: #777;
 	font-size: 10px;
 	letter-spacing: 0px;
 	font-family: "Source Sans Pro";

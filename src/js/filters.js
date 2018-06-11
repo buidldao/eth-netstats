@@ -498,6 +498,21 @@ angular.module('netStatsApp.filters', [])
 			tooltip.push(string);
 		}
 
+    // TODO: put fae port here
+    if(node.info.port !== '') {
+      string = "Port: <b>" + (typeof node.info.port !== 'undefined' ? node.info.port : '27182') + "</b>";
+
+      tooltip.push(string);
+    }
+
+    // TODO: put node server port here
+    if(node.info.port !== '') {
+      string = "Port: <b>" + (typeof node.info.port !== 'undefined' ? node.info.port : '5000') + "</b>";
+
+      tooltip.push(string);
+    }
+
+
 		if(node.info.api !== '') {
 			string = "Web3: <b>" + node.info.api + "</b>";
 
